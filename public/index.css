@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(95, 92, 92);
+}
+
+ul , ol{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container{
+  margin: 100px auto;
+}
+.slider_img{
+ height: 700px;
+ margin-bottom: 100px;
+}
+
+.food_inner{
+  padding: 100px 0;
+   
+}
+
+h2{
+  margin-bottom: 40px;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.btn{
+  margin-top: 30px;
+}
+
+.old_price{
+  margin-top: 25px;
+  text-decoration: line-through;
+}
+
+.new_price{
+  font-weight: 700;
+  font-style: 18px;
+
+}
+
+.food_box{
+  display:flex;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+  margin-top: 20px;
+}
+.food_parag{
+  text-align: center;
+}
+
+
