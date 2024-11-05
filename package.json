@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-     "build": "npm run build-client && npm run build-server",
+     "start": "node app.js",  
+    "build": "echo 'No build step required",
     "dev": "nodemon server"
   },
   "keywords": [],
